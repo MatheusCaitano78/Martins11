@@ -1,6 +1,6 @@
 {margin:0;
     padding:0;}
-    .cabecalho{background-color: deepskyblue;
+    .cabecalho{background-color: rgb(255, 186, 240);
      color: rgb(0, 0, 0);
      display:flex;
      justify-content:space-around;
@@ -8,6 +8,6 @@
      .cabecalho-lista-item{
         display:inline-block;
         margin: 0 16px;
-        padding: 24px 0;
-        font-size: 24px;
+        padding: 45px 8;
+        font-size: 40px;
      }
