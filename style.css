@@ -1,32 +1,7 @@
-{margin:0;
-    padding:0;}
-    .cabecalho{background-color: rgb(255, 2, 108);
-     color: rgb(0, 0, 0);
-     display:flex;
-     justify-content:space-around;
-     padding:24px 0;}
-     .cabecalho-lista-item{
-        display:inline-block;
-        margin: 0 30px;
-        padding: 40px 5;
-        font-size: 70px;
-     }
-
-     .escola { 
-      background-image: -moz-linear-gradient(#0026ff);
-      color: rgb(255, 0, 0);
-      display: flex;
-     }
-     .escola-conteudo{ 
-      width: : 35%;
-      display:flex;
-      justify-content: center;
-      align-items:center;
-     }
-     .escola-imagem{ 
-      widt: 25%;
-     }
-     .escola-titulo{
-      padding: : 24px 0;
-     }
-     
+style.css
+:root { --cor-de-fundo: #1E1E1E; --verde: #6FFF57; --branco: #FFFFFF; --botao-ativo:
+#3A375E; --botao-inativo: rgba(58, 55, 94, 0.5); --texto-fundo: rgba(58, 55, 94, 0.3); }
+body {
+background-color: var(--cor-de-fundo);
+color: var(--branco); font-family: ‘Chakra Petch’, sans-serif;
+}
